@@ -1,0 +1,309 @@
+{
+  "rasa_nlu_data": {
+    "common_examples": [
+      {
+        "intent": "greet",
+        "text": "你好呀"
+      },
+      {
+        "intent": "greet",
+        "text": "早呀"
+      },
+      {
+        "intent": "greet",
+        "text": "我是"
+      },
+      {
+        "intent": "greet",
+        "text": "好啊"
+      },
+      {
+        "intent": "greet",
+        "text": "感觉一般啊"
+      },
+      {
+        "intent": "greet",
+        "text": "觉得不开心"
+      },
+      {
+        "intent": "boss",
+        "text": "老板人品真的很差"
+      },
+      {
+        "intent": "boss",
+        "text": "出了事情只会找下属背锅"
+      },
+      {
+        "intent": "boss",
+        "text": "功劳都是老板的"
+      },
+      {
+        "intent": "boss",
+        "text": "老板真的什么事情都不会做"
+      },
+      {
+        "intent": "boss",
+        "text": "老板什么都不做，没有能力"
+      },
+      {
+        "intent": "boss",
+        "text": "器重爱拍马屁的下属"
+      },
+      {
+        "intent": "boss",
+        "text": "自己就是个马屁精"
+      },
+      {
+        "intent": "boss",
+        "text": "没办法适应老板的做事风格"
+      },
+      {
+        "intent": "boss",
+        "text": "老板总是骚扰我"
+      },
+      {
+        "intent": "boss",
+        "text": "老板好凶，又严格"
+      },
+      {
+        "intent": "boss",
+        "text": "老板做事捉摸不定"
+      },
+      {
+        "intent": "job_task",
+        "text": "工作量好大"
+      },
+      {
+        "intent": "job_task",
+        "text": "工作分配不合理"
+      },
+      {
+        "intent": "job_task",
+        "text": "每天重复工作真的很烦"
+      },
+      {
+        "intent": "job_task",
+        "text": "自己的工作没有意义"
+      },
+      {
+        "intent": "job_task",
+        "text": "每天被逼做自己讨厌的事情"
+      },
+      {
+        "intent": "job_task",
+        "text": "加班很累"
+      },
+      {
+        "intent": "job_task",
+        "text": "觉得自己kpi完不成"
+      },
+      {
+        "intent": "job_task",
+        "text": "我觉得自己无法胜任工作"
+      },
+      {
+        "intent": "job_task",
+        "text": "不知道这样的工作要做到何年何月"
+      },
+      {
+        "intent": "job_task",
+        "text": "不想做这样的工作"
+      },
+      {
+        "intent": "colleague",
+        "text": "和某些人合作真的不爽"
+      },
+      {
+        "intent": "colleague",
+        "text": "同事只会互相推脱，谁也不做事"
+      },
+      {
+        "intent": "colleague",
+        "text": "好些人面前和你是朋友，背后向你捅刀子"
+      },
+      {
+        "intent": "colleague",
+        "text": "有时候我也不知道该不该和同事做朋友"
+      },
+      {
+        "intent": "colleague",
+        "text": "我觉得同事们在排挤我"
+      },
+      {
+        "intent": "colleague",
+        "text": "我觉得自己可能喜欢上了同事"
+      },
+      {
+        "intent": "colleague",
+        "text": "有些人真的很爱拍马屁，玩手段"
+      },
+      {
+        "intent": "colleague",
+        "text": "我不知道怎么和同事相处"
+      },
+      {
+        "intent": "colleague",
+        "text": "我觉得他们都好虚伪，不想和他们一起"
+      },
+      {
+        "intent": "colleague",
+        "text": "受够了他们老是抱怨"
+      },
+      {
+        "intent": "colleague",
+        "text": "伸手党超讨厌的"
+      },
+      {
+        "intent": "return",
+        "text": "我觉得工资太少了"
+      },
+      {
+        "intent": "return",
+        "text": "我觉得没有什么前途"
+      },
+      {
+        "intent": "return",
+        "text": "我觉得自己的付出和收获不成正比"
+      },
+      {
+        "intent": "return",
+        "text": "也不知道什么时候能晋升"
+      },
+      {
+        "intent": "teacher",
+        "text": "老师教的好差"
+      },
+      {
+        "intent": "teacher",
+        "text": "老师好水"
+      },
+      {
+        "intent": "teacher",
+        "text": "这老师教的超无聊"
+      },
+      {
+        "intent": "teacher",
+        "text": "不知道这老师在教什么"
+      },
+      {
+        "intent": "teacher",
+        "text": "老师人品好差"
+      },
+      {
+        "intent": "teacher",
+        "text": "老师很严，要求好多"
+      },
+      {
+        "intent": "teacher",
+        "text": "觉得老师很不负责任"
+      },
+      {
+        "intent": "course_content",
+        "text": "课程好难啊"
+      },
+      {
+        "intent": "course_content",
+        "text": "学这课真的很累"
+      },
+      {
+        "intent": "course_content",
+        "text": "课程内容安排不合理"
+      },
+      {
+        "intent": "course_content",
+        "text": "这课有点无聊"
+      },
+      {
+        "intent": "course_content",
+        "text": "我好担心考试"
+      },
+      {
+        "intent": "course_content",
+        "text": "不明白为什么我一定要学这门课"
+      },
+      {
+        "intent": "course_content",
+        "text": "课程真的挺没用的，觉得学不到东西"
+      },
+      {
+        "intent": "course_content",
+        "text": "教学环境设备好烂"
+      },
+      {
+        "intent": "classmate",
+        "text": "觉得自己和同学相处的不好"
+      },
+      {
+        "intent": "classmate",
+        "text": "觉得自己和同学之间差距好大，和同学在一起有压力"
+      },
+      {
+        "intent": "classmate",
+        "text": "和同学之间没话好说，聊不到一块儿"
+      },
+      {
+        "intent": "classmate",
+        "text": "同学之间就知道攀比，很厌烦"
+      },
+      {
+        "intent": "assignment",
+        "text": "作业真的太多了"
+      },
+      {
+        "intent": "assignment",
+        "text": "作业好难，不会做"
+      },
+      {
+        "intent": "assignment",
+        "text": "作业让我崩溃"
+      },
+      {
+        "intent": "assignment",
+        "text": "不明白为什么要写这种作业"
+      },
+      {
+        "intent": "assignment",
+        "text": "我觉得这些作业对我今后的发展没有帮助"
+      },
+      {
+        "intent": "assignment",
+        "text": "这些作业真的没有用浪费时间"
+      },
+      {
+        "intent": "graduation",
+        "text": "担心自己不能毕业"
+      },
+      {
+        "intent": "graduation",
+        "text": "不知道自己今后要做什么"
+      },
+      {
+        "intent": "graduation",
+        "text": "感觉迷茫"
+      },
+      {
+        "intent": "graduation",
+        "text": "不知道自己能做些什么"
+      },
+      {
+        "intent": "graduation",
+        "text": "不知道自己的未来在哪里"
+      },
+      {
+        "intent": "graduation",
+        "text": "找工作好难"
+      },
+      {
+        "intent": "graduation",
+        "text": "考研好难"
+      },
+      {
+        "intent": "graduation",
+        "text": "读博好难"
+      }
+    ],
+    "regex_features": [],
+    "lookup_tables": [],
+    "entity_synonyms": []
+  }
+}

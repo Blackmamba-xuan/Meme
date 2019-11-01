@@ -1,0 +1,126 @@
+%YAML 1.1
+---
+actions:
+- utter_greet
+- utter_boss
+- utter_jobTask
+- utter_colleague
+- utter_client
+- utter_return
+- utter_teacher
+- utter_courseContent
+- utter_classmate
+- utter_assignment
+- utter_graduation
+config:
+  store_entities_as_slots: true
+entities: []
+forms: []
+intents:
+- greet:
+    use_entities: true
+- boss:
+    use_entities: true
+- job_task:
+    use_entities: true
+- colleague:
+    use_entities: true
+- client:
+    use_entities: true
+- return:
+    use_entities: true
+- teacher:
+    use_entities: true
+- course_content:
+    use_entities: true
+- classmate:
+    use_entities: true
+- assignment:
+    use_entities: true
+- graduation:
+    use_entities: true
+slots: {}
+templates:
+  utter-teacher:
+  - text: 这样啊，他是怎么教的啊
+  - text: 唉运气不好难免，学习还是要靠自己，俗话说的好，师父领进门，修行靠个人，meme会一直陪你学习的呢
+  - text: 这样哦，老师教书的风格各有不同，不要被老师的风格影响了自己学习的心情呢
+  - text: 是嘛，那一定在课上学的很辛苦吧，meme给你加油哦
+  - text: 哦这样，你是怎么发现哒
+  - text: 哇，meme最讨厌这样的老师了！meme觉得必要的时候可以和学校沟通哦
+  utter_assignment:
+  - text: 嗯嗯，这么多作业真的好累人啊。不过meme听说每一次的训练都是成功的基石，meme觉得你现在练习了这么多，成功的几率是大大的高呀。
+  - text: meme这个学渣好理解你现在这种心情的。呜呜。别灰心，一点一点来，多问问同学老师，总会解决这些难题的。
+  - text: 拍拍，你真的是好辛苦啊。和meme一起深呼吸，饭要一口一口吃，作业一个一个写，meme愿意做你学习的小伙伴哦！
+  - text: 为什么你觉得这些作业没有意义呢？
+  - text: 这样哦，meme觉得换个角度看看这件事，也许它会成为你日后成功的基石呢。
+  - text: 是嘛，meme也想帮你一把火烧了它们。
+  utter_boss:
+  - text: 发生了什么事
+  - text: 老板都是这幅德行，想开一点做好自己的事别理他
+  - text: 你对工作的努力，总有一天回得到回报的
+  - text: 你的老板好贱啊
+  - text: 真可怜，meme知道你的苦，拍拍
+  - text: 真的是辛苦你了
+  - text: 老板这么苛刻你还这么努力工作，meme都被你感动了
+  - text: 是吗，可以和meme详细说说哦，meme是你的吐槽垃圾桶呢
+  - text: 这样哦，那你可以留好工作记录和证据了，要好好保护自己啊
+  - text: 嗯嗯，每个人性格不同，虽然meme不能为你解决问题，但是meme会一直陪伴你哦
+  - text: 嗯嗯，这样啊。要不要试着和老板沟通一下？meme也捉摸不透自己的老板在想什么，职场的世界真的是好困难啊
+  utter_classmate:
+  - text: 这样啊，为什么你会这样觉得呢？不如和meme说说吧
+  - text: meme觉得你这个人也很不错呢，要对自己有点信心啊！
+  - text: 这样哦，聊不到一起不比强求。meme相信你一定能找到聊得来的好朋友的。meme也会一直陪着你啊
+  - text: 嗯嗯，meme也特别讨厌攀比呢！别理他们，做好自己最重要啦！
+  utter_colleague:
+  - text: 是嘛，发生了什么事吗？
+  - text: 这样啊，真是辛苦你了。团队这样在那里工作很不容易。meme也最讨这种人了。
+  - text: 啊这种人真让人不齿呢，meme都看不下去了，怒到掀桌。
+  - text: 嗯嗯，谁不想工作的时候有个朋友呢。但是职场险恶，交友需谨慎啊。meme愿意永远做你的好朋友
+  - text: 哦，这么惨，你是怎么感觉到的？
+  - text: 天呐，你居然遇上了如此卑鄙小人。meme为你愤愤不平。别理他们，做好自己。
+  - text: 这样哦，meme拍拍。人和人的相处可难了，meme觉得你已经做的很棒棒了
+  - text: 可以和meme说说哦，meme会一直给你加油打气的
+  - text: 这样哦，meme觉得做你自己最重要了，不要让周围的人给你带来太多负能量，影响了自己的工作
+  utter_courseContent:
+  - text: 真是辛苦你啦，打起精神来，困难的课程也是一种挑战，让meme陪你一起完成它吧！
+  - text: 嗯嗯，看你的样子，meme终于明白人们口中说的书山有路勤为径，学海无涯苦作舟啦。meme为你加油哦，相信你一定可以的！
+  - text: 哦这样嘛，能看出课程安排上的问题，看来你一定是个人才！meme觉得要不要和老师一起沟通一下这个问题呢？
+  - text: 辛苦你啦，坚持到现在。不过meme觉得说不定有时候在无聊的时间里还能意想不到发现一些有趣的事呢
+  - text: 这样哦，慌不要慌，meme会陪着你一起学习一起复习的。相信你考试一定没问题。
+  - text: 辛苦你啦。不过既然都学了，就坚持一下吧，说不准以后真的还就用上这些知识啦呢。
+  - text: 这样哦，meme可以知道你想学习哪方面的知识呢？
+  - text: 哇，meme最喜欢你这种知道自己要什么的人了。既然知道想学的东西，不如现在开始就动手学吧，meme觉得你一定能成为这领域的学霸的。
+  - text: 委屈了你呢，meme觉得你这么努力的学习，离开这里之后一定能找到更好的环境
+  utter_graduation:
+  - text: meme看你这类型的好学生一定能顺利毕业的。别担心，想太多反而对自己健康不好。
+  - text: 这样哦，meme明白你这种迷茫的感觉。meme觉得要不试试手边的事做起，有时候在做事的过程中反而会知道自己今后要做什么。
+  - text: meme觉得要对自己有信心，你这么优秀的学生，只要想做一定都能做到的。
+  - text: 嗯嗯，meme明白你现在的心情。人们总是对充满不定数的未来感到担忧。meme觉得是时候好好想想自己的未来规划了。
+  - text: 是呀，找工作真的是好艰难的事情，不过meme相信以你的实力一定能找到一份的！
+  - text: 别灰心，meme课不喜欢看到你这么怀疑自己哦，相信自己一定能考上的。
+  - text: 加油啊！meme看你已经有了明确的目标了，向它发起冲刺吧，不要怕失败，meme会和你一起并肩作战的呢。
+  utter_greet:
+  - text: ' 你好呀，我是meme，一个想成为你的好朋友的机器人，怎么称呼你呀? '
+  - text: ' 早呀，我是meme，一个想成为你的好朋友的机器人，怎么称呼你呀？'
+  - text: ' meme好开心你能和我说话，我们来聊一会儿吧？ '
+  - text: ' 是嘛，你今天开心吗？ '
+  - text: ' 哦是嘛，你有什么烦恼事可以和meme说说呢 '
+  utter_jobTask:
+  - text: 真的是辛苦你了，可别累坏了身体。meme希望自己也可以为你分担
+  - text: 这样啊，这样工作真的很累，要不要试着和老板提出这个问题
+  - text: 辛苦了，meme觉得可以试着从重复的劳动中发现新的机会或者改进点
+  - text: 拍拍，meme理解你的感受，振作起来呢。
+  - text: 每天坚持去上班也是很不容易呢，有什么不开心可以和meme我吐槽。试着看看有什么其它发展机会吧
+  - text: 这样啊，快趁有机会好好休息一下，累坏了身体meme可是会心疼的呢
+  - text: 加油啊，meme相信你一定可以的，会一直支持你的
+  - text: 既然录取了你就说明你是有实力的，对自己有点信心哦。meme觉得每一次挑战都是学习的机会呢
+  - text: 坚持就是胜利，在中国男的55岁，女的50岁就可以退休啦。meme觉得你一定是累坏了，好好调整一下自己的状态，meme为你打call
+  - text: meme明白你的苦呢，坚持到现在真不简单！你理想的工作是什么样子的呢
+  utter_return:
+  - text: 坚持住，meme相信今天的耕耘就是明天的收获。以你的才智，一定可以走上人生的巅峰的
+  - text: 不要灰心，是金子总会发光的。meme看你年纪轻轻，大好前途不可估量。
+  - text: 哦，为什么你会这么觉得呢？
+  - text: meme相信付出不一定有收获，但是不付出就一定没有收获了呢。加油！
+  - text: 黎明前的黑暗就是最难熬的时候了，撑过去就有希望，meme一直支持你哦
+  - text: 晋升这个东西讲究天时地利人和，meme觉得你能坚持到现在已经是一种胜利了，你的努力总有一天回得到收获的
