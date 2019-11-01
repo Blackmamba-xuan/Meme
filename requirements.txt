@@ -1,0 +1,16 @@
+wechatpy[pycrypto]
+falcon
+gevent
+requests
+waitress
+zmp
+argparse
+fuzzywuzzy
+whoosh
+jieba
+scikit-learn==0.20.2
+python-Levenshtein
+nltk
+gensim==3.7.0
+numpy
+gevent
